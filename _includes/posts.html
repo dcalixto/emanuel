@@ -1,0 +1,57 @@
+<section class="background-color-grey">
+  <div class="inner-content-top-out-bottom-out">
+    <div class="container">
+      <h2 class="text-center">Acomodações</h2>
+      <div class="row">
+        <div class="news-press-section">
+          <div class="press-news-container">
+            {% for post in site.posts limit:8 %}
+
+            <div class="col-md-6 posts">
+              <div class="thumbnail">
+                <div class="limit">
+                  <a href="{{ post.url }}">
+                    <img class="" src="{{ post.images[0] }}" />
+                  </a>
+                </div>
+                <div class="caption">
+                  <a href="{{ post.url }}"><h2>{{ post.name }}</h2></a>
+                </div>
+                <div class="panel-body">
+                  <hr />
+
+                  <div class="content">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="features-sb-container">
+                          <img
+                            style="width:30px;height:30px"
+                            src="{{ site.baseurl }}/photos/television.svg"
+                            alt="{{ site.title }}"
+                          />
+                          <img
+                            style="width:30px;height:30px"
+                            src="{{ site.baseurl }}/photos/air-conditioner.svg"
+                            alt="{{ site.title }}"
+                          />
+                          <img
+                            style="width:30px;height:30px"
+                            src="{{ site.baseurl }}/photos/wifi.svg"
+                            alt="{{ site.title }}"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- pagination -->
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

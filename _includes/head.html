@@ -1,0 +1,22 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <title>
+    {% if page.section == "home" %}{{ site.title }}{% else %}{{ page.title |
+    default: site.title }}{% endif %}
+  </title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/lightbox.css' | relative_url }}"
+  />
+
+  <link
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+  <!-- <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    rel="stylesheet"
+  />-->
+</head>

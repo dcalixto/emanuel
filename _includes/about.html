@@ -1,0 +1,44 @@
+{% if site.data.about %} {% assign ab = site.data.about %}
+
+<section id="header-section">
+  <div
+    class="header-background-image"
+    style="background-image: url('{{ ab.image}}');"
+  >
+    <div class="container">
+      <div class="row row-flex-center-md">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+          <div class="color-white text-shadow-default">
+            <ul class="list-unstyled list-big-headlines">
+              <li>
+                <h1>SOBRE NÓS</h1>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="background-color-grey">
+  <div class="inner-content-top-out-bottom-out">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="{{ post.url }}"><h4>Sobre Nós</h4></a>
+            </div>
+            <div class="panel-body">
+              {{ ab.body}}
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endif %}

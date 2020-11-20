@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+<section id="header-section">
+  <div
+    class="header-background-image"
+    style="background-image:url('{{ site.data.g-index.image}}');"
+  >
+    <div class="container">
+      <div class="row row-flex-center-md">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+          <div class="color-white text-shadow-default">
+            <ul class="list-unstyled list-big-headlines">
+              <li>
+                <h1>Quartos</h1>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="background-color-grey">
+  <div class="inner-content-top-out-bottom-out">
+    <div class="container">
+      <div class="row">
+        <div class="news-press-section">
+          <div class="wpress-news-container">
+            <div class="col-md-6">
+              <!-- orders content according to the "publishdate" field in front matter -->
+              {% for post in paginator.posts %}
+
+              <div class="thumbnail">
+                <div class="limit">
+                  <a href="{{ post.url }}">
+                    <img class="" src="{{ post.images[0] }}" />
+                  </a>
+                </div>
+                <div class="caption">
+                  <a href="{{ post.url }}"><h2>{{ post.name }}</h2></a>
+                  <div class="panel-body">
+                    <hr />
+                    <div class="content">
+                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                          <div class="features-sb-container">
+                            <img
+                              style="width:30px;height:30px"
+                              src="{{ site.baseurl }}/photos/television.svg"
+                              alt="{{ site.title }}"
+                            />
+                            <img
+                              style="width:30px;height:30px"
+                              src="{{ site.baseurl }}/photos/air-conditioner.svg"
+                              alt="{{ site.title }}"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+class="fb-share-button"
+data-href="{{ site.url }}/{{ post.url }}"
+data-layout="button"
+data-size="large"
+>
+<a
+  target="_blank"
+  href="https://www.facebook.com/sharer.php?u={{ site.url }}/{{ post.url }}&title={{ post.title }}"
+ 
+"
+  class="fb-xfbml-parse-ignore"
+  >Compartilhar</a
+>
+</div>
+                </div>
+              </div>
+
+              {% endfor %}
+
+              <!-- pagination -->
+              {% if paginator.total_pages > 1 %}
+              <div class="pagination">
+                {% if paginator.previous_page %}
+                <a
+                  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                  >&laquo; Prev</a
+                >
+                {% else %}
+                <span>&laquo; Prev</span>
+                {% endif %} {% for page in (1..paginator.total_pages) %} {% if
+                page == paginator.page %}
+                <span class="webjeda">{{ page }}</span>
+                {% elsif page == 1 %}
+                <a href="/posts/">{{ page }}</a>
+                {% else %}
+                <a
+                  href="{{ paginator.next_page_path| prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+                  >{{ page }}</a
+                >
+                {% endif %} {% endfor %} {% if paginator.next_page %}
+                <a
+                  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                  >Next &raquo;</a
+                >
+                {% else %}
+                <span>Next &raquo;</span>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

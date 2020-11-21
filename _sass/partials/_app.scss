@@ -638,17 +638,14 @@ body {
 
   h1 {
     font-size: 2.3rem;
-    margin: 0 0 0.57em;
   }
 
   h2 {
     font-size: 2rem;
-    margin: 0 0 0.75em;
   }
 
   h3 {
-    font-size: 1.17rem;
-    margin: 0 0 0.83em;
+    /*font-size: 1.17rem;*/
   }
 
   h4 {
@@ -2651,7 +2648,7 @@ main {
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #000080;
 }
 
 .navbar-logo {
@@ -9946,25 +9943,21 @@ div.container-faqs ol {
   text-align: center;
 }
 .box-simple .icon-outlined {
-  color: #4fbfa8;
-  border: 1px solid #4fbfa8;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  color: #fff;
 }
 .icon-outlined {
-  width: 80px;
-  height: 80px;
+  width: 300px;
+
   line-height: 80px;
-  text-align: center;
+
   display: inline-block;
   font-size: 1.4rem;
-  border-radius: 50%;
-  border: 2px solid #fff;
+
   margin-bottom: 20px;
 }
-.box-simple h3 {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+.service-text {
+  background-color: #000080;
+  height: 90px;
 }
 .bar {
   margin-top: 100px;

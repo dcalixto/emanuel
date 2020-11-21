@@ -9,9 +9,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="130"
-   height="85"
-   viewBox="0 0 34.395833 22.489584"
+   width="170"
+   height="50"
+   viewBox="0 0 44.979166 13.229167"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -35,7 +35,7 @@
        x2="194.44896"
        y2="137.05367"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.18010861,0,0,0.1620493,-1.4459467,-10.736669)" />
+       gradientTransform="matrix(0.18010861,0,0,0.1620493,65.885012,-27.209209)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -44,8 +44,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2896998"
-     inkscape:cx="262.33938"
+     inkscape:zoom="3.5011758"
+     inkscape:cx="75.777223"
      inkscape:cy="67.708797"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -73,34 +73,42 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke-width:0.277809"
+       id="rect37"
+       width="45.465221"
+       height="13.723168"
+       x="0.094157465"
+       y="0.029691769"
+       ry="0.24648947" />
     <ellipse
        style="mix-blend-mode:color-burn;fill:url(#linearGradient2917);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.23563;stroke-linejoin:round;stroke-opacity:0.964662"
        id="path10"
-       cx="17.445082"
-       cy="11.472781"
+       cx="84.776039"
+       cy="-4.9997582"
        rx="16.130903"
        ry="10.793571" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.70127px;line-height:1.25;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.117532"
-       x="4.5046601"
-       y="9.6694565"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.16194px;line-height:1.25;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.179049"
+       x="1.3831453"
+       y="6.4119754"
        id="text14"><tspan
          sodipodi:role="line"
          id="tspan12"
-         x="4.5046601"
-         y="9.6694565"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.70127px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.117532">Aplicadora</tspan></text>
+         x="1.3831453"
+         y="6.4119754"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.16194px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.179049">Aplicadora</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.13198px;line-height:1.25;font-family:Volkart;-inkscape-font-specification:'Volkart, Heavy Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.1033"
-       x="4.0501885"
-       y="15.69824"
+       style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.84702px;line-height:1.25;font-family:Volkart;-inkscape-font-specification:'Volkart, Heavy Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.171176"
+       x="0.44325092"
+       y="12.717835"
        id="text18"><tspan
          sodipodi:role="line"
          id="tspan16"
-         x="4.0501885"
-         y="15.69824"
-         style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.13198px;font-family:Volkart;-inkscape-font-specification:'Volkart, Heavy Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.1033">Nova Boituva</tspan></text>
+         x="0.44325092"
+         y="12.717835"
+         style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.84702px;font-family:Volkart;-inkscape-font-specification:'Volkart, Heavy Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.171176">Nova Boituva</tspan></text>
   </g>
 </svg>

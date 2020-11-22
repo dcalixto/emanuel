@@ -677,14 +677,14 @@ body {
 }
 
 main a {
-  color: #1f3265;
+  color: #fff;
 
   font-weight: 500;
 
   &:active,
   &:focus,
   &:hover {
-    color: #1f3265;
+    color: #fff;
     text-decoration: underline;
   }
 
@@ -9957,8 +9957,10 @@ div.container-faqs ol {
 }
 .service-text {
   background-color: #000080;
-  height: 90px;
+  height: 100px;
+  padding-top: 10px;
 }
+
 .bar {
   margin-top: 100px;
 }

@@ -2,30 +2,25 @@
 title: Home
 layout: home
 services:
-  # - heading: "Estacionamento"
-  - description: "Estacionamento"
-    icon: "/photos/parking.svg"
-  - description: Café da manhã
-    # heading: Casamentos
-    icon: "/photos/coffee.svg"
-  - description: Ar condicionado
-    # heading: Festas & Eventos
-    icon: "/photos/air-conditioner.svg"
-  - description: Wifi
-    # heading: Festas & Eventos
-    icon: "/photos/wifi.svg"
-  - description: Televisão
-    # heading: Festas & Eventos
-    icon: "/photos/tv.svg"
-  - description: Lavanderia
-    # heading: Festas & Eventos
-    icon: "/photos/washing-machine.svg"
-  - description: Academia
-    # heading: Festas & Eventos
-    icon: "/photos/gym.svg"
-  - description: Frigobar
-    # heading: Festas & Eventos
-    icon: "/photos/minibar.svg"
-description: ""
-icon: ""
+  - title: Escadas
+    img: "/photos/IMG-20201120-WA0032.jpg"
+    permalink: /service
+  - title: Verniz Cetol Deck
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
+  - title: Verniz resistente a quimica e xixi de cachorro
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
+  - title: Calafetacao com cola
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
+  - title: Verniz poliretano
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
+  - title: Decks - Osmocolor uv Deck
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
+  - title: Bona trafic - alto trafego
+    img: "/photos/IMG-20201120-WA0026.jpg"
+    permalink: /service
 ---

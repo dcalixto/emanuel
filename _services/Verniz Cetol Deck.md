@@ -1,6 +1,6 @@
 ---
-heading: "Fotografia Profissional! "
+title: Verniz Cetol Deck
 text: Qualquer dúvida Estamos a disposição
 link: Confira!
-image: "/photos/sala.jpg"
+img: "/photos/IMG-20201120-WA0026.jpg"
 ---

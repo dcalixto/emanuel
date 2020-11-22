@@ -1,35 +1,46 @@
-<section class="bar ">
+<section >
+  <div class="inner-content-top-in-bottom-out">
+    <div class="container">
   <div class="row text-center">
-    <div class="col-md-12">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <h2>Servicos</h2>
     </div>
   </div>
-  <div class="row services text-center">
+  <div class="row services">
     {% for service in site.services %}
 
-    <div class="col-md-4">
-      <div class="box-simple">
-        
-          <div class="icon-outlined">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div class="info-box info-box-with-icon border-card">
+        <div class="info-box-icon-container">
+         
+ 
+             <div class="info-box-content info-box-content-startpage">
             <a href="{{ service.url }}">
             <img
-              style="width:300px;height:300px"
+              style="width:453px;height:350px"
               src="{{  service.img | site.baseurl }}"
-              class="img-fluid"
+              class="img-responsive"
             />
+               </div>
 
-            <div class="service-text">
+            <div class="service-text info-box-ref">
               
               <h3>{{ service.title }}</h3>
             
             </div>
           </a>
-          </div>
+        
          
         </a>
+
       </div>
+      </div>
+
+
     </div>
 
     {% endfor %}
   </div>
+</div>
+</div>
 </section>

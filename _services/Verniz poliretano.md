@@ -1,6 +1,17 @@
 ---
 title: Verniz poliretano
-text: Qualquer dúvida Estamos a disposição
+description: "Se o seu objetivo é aperfeiçoar, reparar ou impedir a formação de imperfeições ou falhas em pisos, promovendo a sua funcionalidade e melhorando a sua tenacidade, ou mesmo melhorar a funcionalidade estética de um substrato, a pintura realizada com resinas poliuretanas é a solução ideal.
+
+
+O serviço de pintura em poliuretano é ideal para ser utilizado em ambientes que exigem pintura com grande resistência química, mecânica e abrasiva, em instalações industriais ou mesmo em estabelecimentos comerciais. Isto porque essa pintura é feita à base de resina poliuretana, que contém essas características técnicas que se fazem essenciais para atender estas demandas.
+
+O serviço de pintura em poliuretano é ideal para ser utilizado como proteção em superfícies que necessitam de impermeabilidade, alta dureza, elevada tenacidade mecânica. Também é excelente alternativa para pinturas que precisam resistir a impactos ou mesmo ao desgaste, à abrasão e a inércia química, por exemplo.
+
+Quais os aspectos de uma pintura poliuretana?
+
+A pintura poliuretana é versátil e pode ter diversos aspectos: brilhante, fosco ou mesmo em verniz.
+
+Outro diferencial é seu acabamento, que pode ser monolítico liso ou antiderrapante, que se fazem perfeitos para ambientes como cozinhas industriais, oficinas automotivas, corredores, quadras poliesportivas, laboratórios e ambientes industriais de diversos segmentos como alimentícios, farmacêuticos, químicos, entre outros."
 link: Confira!
 img: "/photos/IMG-20201120-WA0026.jpg"
 ---

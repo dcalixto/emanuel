@@ -1,6 +1,6 @@
 ---
 title: Escadas
-text: Qualquer dúvida Estamos a disposição
+description: Raspagem, verniz e aplicação em escadas.
 
 img: "/photos/IMG-20201120-WA0032.jpg"
 ---

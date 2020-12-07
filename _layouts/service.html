@@ -3,10 +3,43 @@ layout: default
 ---
 
 <section>
-  <div class="inner-content-top-in-bottom-out background-color-light-grey">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
+
+
+  
+<div class="container">
+
+  <div class="row parent-container">
+
+ {% for image in page.images %}
+
+
+
+    <div class="col-md-4">
+      <div class="imagenail">
+        <a href="{{  image }}"  target="_blank">
+        
+     <img
+           
+              src="{{  image   }}"
+              class="img-responsive"
+            />
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+ 
+
+     {% endfor %}
+  </div>
+
+
+
+
+    <div class="row">
+         <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
           <div>
             <img src="{{page.img}}" class="img-responsive" />
           </div>
@@ -20,6 +53,8 @@ layout: default
           </div>
         </div>
       </div>
-    </div>
-  </div>
+
+
+</div>
+
 </section>

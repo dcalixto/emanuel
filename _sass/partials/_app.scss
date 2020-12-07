@@ -2637,12 +2637,12 @@ pre {
 }
 
 main {
-  margin-top: 90px;
+  //margin-top: 90px;
 }
 
 @media (max-width: 767px) {
   main {
-    margin-top: 114px;
+    //margin-top: 114px;
   }
 }
 
@@ -9991,4 +9991,24 @@ h1,
   background: -o-linear-gradient(left, #ededed 0, #d8d8d8 50%, #ededed 100%);
   background: -ms-linear-gradient(left, #ededed 0, #d8d8d8 50%, #ededed 100%);
   background: linear-gradient(90deg, #ededed 0, #d8d8d8 50%, #ededed);
+}
+
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
 }

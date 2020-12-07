@@ -14,85 +14,51 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="footer-pre-section-element">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:bruno@gmail.com.com">{{info.email}}</a>
+            <a href="mailto:calixtodaniel@gmail.com.com">{{info.email}}</a>
           </div>
         </div>
       </div>
     </div>
   </div>
   {% endif %}
-  <div class="footer-main-section hidden-sm hidden-xs">
+
+  <div class="footer-main-section ">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-3">
-          <h4>Aplicadora Nova Boituva</h4>
-
-          <ul class="list-unstyled accordion-content">
-            <li>
-              <a href="{{ site.baseurl }}/contact">Contato</a>
-            </li>
-
-            <li>
-              <a href="{{ site.baseurl }}/contact">Clientes</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-2 col-sm-3">
-          <h4>Suporte</h4>
-          <ul class="list-unstyled accordion-content">
-            <li>
-              <a href="{{ site.baseurl }}/contact">Dúvidas?</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-2 col-sm-3">
-          <h4>Sobre Nós</h4>
-          {% if site.data.information %} {% assign info = site.data.information
-          %}
-          <ul class="list-unstyled">
-            <li class="social-icons">
-              <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa fa-facebook-square fa-2x fa-fh"></i>
-              </a>
-
-              <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa fa-instagram fa-2x"></i>
-              </a>
-              <a href="https://www.youtube.com/" target="_blank">
-                <i class="fa fa-youtube-play fa-2x"></i>
-              </a>
-            </li>
-          </ul>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-main-section hidden-md hidden-lg">
-    <div class="container">
-      <div class="footer-accordion">
+     
         <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-            <span class="footer-accordion-header">
-              <h4>Aplicadora Nova Boituva</h4>
-            </span>
-            <ul class="list-unstyled accordion-content">
-              <li>
-                <a href="/support-form">Contato</a>
-              </li>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+      
+            <ul class="list-unstyled ">
+              <li>  <img
+            style="height:40px"
+            class="navbar-logo"
+      src="{{ site.baseurl }}/assets/img/logo.svg"
+            alt="{{ site.title }}"
+          /></li>
+             
+        
+          <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:(24)993017256"> {{info.phone}}</a>
+          </li>
 
-              <li>
-                <a href="/customers">Clientes</a>
-              </li>
-            </ul>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:calixtodaniel@gmail.com">{{info.email}}</a>
+          </li>
+
+          <li>
+            <p >
+              <small>© 2020. Aplicadora Nova Boituva</small>
+            </p>
+          </li>
+           <li><a href="https://www.netjapa.com">NETJAPA</a></li>
+        </ul>
           </div>
 
+
           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-            <span class="footer-accordion-header">
-              <h4>Sobre Nós</h4>
-            </span>
+          
             {% if site.data.information %} {% assign info =
             site.data.information %}
             <ul class="list-unstyled">
@@ -108,24 +74,52 @@
                   <i class="fa fa-youtube-play fa-2x"></i>
                 </a>
               </li>
+         
             </ul>
             {% endif %}
           </div>
+
+                 <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+          <h5>PAGAMENTO</h5>
+            <ul class="list-unstyled">
+
+                <li class="social-icons">
+               
+              
+                  <img  src="{{ site.baseurl }}/photos/visa.png">
+                    <img  src="{{ site.baseurl }}/photos/mastercard.png">
+                      <img  src="{{ site.baseurl }}/photos/elo.png">
+                    <img  src="{{ site.baseurl }}/photos/aura.png">
+             
+              </li>
+   </ul>
+           <ul class="list-unstyled">
+
+                <li class="social-icons">
+               
+              
+                  <img  src="{{ site.baseurl }}/photos/boleto.png">
+                    <img  src="{{ site.baseurl }}/photos/itau.png">
+                      <img  src="{{ site.baseurl }}/photos/bradesco.png">
+                    <img  src="{{ site.baseurl }}/photos/brasil.png">
+             
+              </li>
+   </ul>
+
+          
+          
+          </div>
+
+
+
+      
         </div>
-      </div>
+     
     </div>
   </div>
-  <div class="footer-post-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <p class="text-center">
-            <small>© 2020. Aplicadora Nova Boituva</small>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<a href="https://api.whatsapp.com/send?phone=5524993017256" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 </footer>
 <!-- end footer section -->
 

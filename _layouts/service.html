@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section>
+<section  class="mt-2">
 
 
   
@@ -23,9 +23,7 @@ layout: default
               src="{{  image   }}"
               class="img-responsive"
             />
-          <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
+        
         </a>
       </div>
     </div>
@@ -33,17 +31,18 @@ layout: default
  
 
      {% endfor %}
+      {% if page.youtubeId != null %}
+    
+              {% include youtube.html id='ZX2DdQkY0Ls' %}
+             {% endif %}
   </div>
 
 
 
 
     <div class="row">
-         <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
-          <div>
-            <img src="{{page.img}}" class="img-responsive" />
-          </div>
-        </div>
+ 
+
         <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
           <h2>{{page.title}}</h2>
           <div class=" location-map-container ">

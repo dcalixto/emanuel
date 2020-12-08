@@ -1,7 +1,7 @@
 # Basic settings
-url: "novaboituva.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+url: "syntekoboituva.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Aplicadora Nova Boituva" # the name of your site, e.g. ACME Corp.
+title: "Synteko Boituva" # the name of your site, e.g. ACME Corp.
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 # specify main menu items here
 
-- text: Home
+- text: Início
   url: /
 
 - text: Contato

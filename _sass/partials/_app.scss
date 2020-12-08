@@ -780,7 +780,7 @@ ul.list-header-pre-section {
   position: relative;
 
   p {
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
 
@@ -819,7 +819,7 @@ ul.list-header-pre-section {
 }
 
 .footer-pre-section {
-  background-color: #000080;
+  background-color: #f4940b;
   padding: 20px 0 9px;
 
   .footer-pre-section-element {
@@ -2648,6 +2648,7 @@ main {
 
 .navbar-default {
   background-color: #000080;
+   background-color: #fff;
 }
 
 .navbar-logo {
@@ -2680,12 +2681,12 @@ main {
 }
 
 #header-pre-section {
-  background-color: #383838;
+  background-color: #e8e8e8;
 
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 40px;
+  height: 50px;
 }
 
 @media (max-width: 768px) {
@@ -4159,7 +4160,7 @@ ul.navbar-nav li {
   text-transform: capitalize;
 
   a {
-    color: #fff;
+    color: #111;
     padding: 0 10px;
   }
 
@@ -4541,13 +4542,13 @@ ul.list-domains li {
   text-transform: none;
   font-family: sans-serif;
   font-size: 0.8rem;
-  color: #fff;
+  color: #111;
 
   a {
     &:active,
     &:focus,
     &:hover {
-      color: #fff;
+      color: #111;
     }
   }
 
@@ -9089,8 +9090,9 @@ main {
 }
 
 .location-map-container {
-  padding: 20px;
-  border-left: 2px solid #ededed;
+  //padding: 20px;
+  //border-left: 2px solid #ededed;
+  margin-bottom: 50px;
 
   img {
     height: 358px;
@@ -9955,7 +9957,7 @@ div.container-faqs ol {
   margin-bottom: 20px;
 }
 .service-text {
-  background-color: #000080;
+  background-color: #f4940b;
   height: 100px;
   padding-top: 10px;
 }
@@ -10012,3 +10014,8 @@ h1,
 .my-float{
   margin-top:16px;
 }
+
+.mt-2 {margin-top: 50px}
+
+.parent-container a  {padding: 10px}
+.parent-container iframe {padding: 10px}

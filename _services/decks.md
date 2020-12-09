@@ -2,9 +2,9 @@
 title: Decks
 materiais: osmocolor, cetol, bona
 description: "
-temos os materiais adequados para seu deck."
+"
 
-
+material: aaaa
 img: "/photos/IMG-20201205-WA0025.jpg"
 youtubeId: ZX2DdQkY0Ls
 images:

@@ -1,22 +1,21 @@
 ---
 title: Trocas e remendos
-description: fazaemos as trocas e remendos do seu piso.
+description: fazemos as trocas e remendos do seu piso.
 
-img: "/photos/IMG-20201205-WA0009.jpg"
+img: "/photos/remendos/IMG-20201208-WA0008.jpg"
 
 
 images:
-  - "/photos/escadas/IMG-20201205-WA0008.jpg"
-  - "/photos/escadas/IMG-20201205-WA0009.jpg"
-  - "/photos/escadas/IMG-20201205-WA0010.jpg"
-  - "/photos/escadas/IMG-20201205-WA0011.jpg"
-  - "/photos/escadas/IMG-20201205-WA0014.jpg"
-  - "/photos/escadas/IMG-20201205-WA0017.jpg"
-  - "/photos/escadas/IMG-20201205-WA0019.jpg"
-  - "/photos/escadas/IMG-20201205-WA0020.jpg"
-  - "/photos/escadas/IMG-20201205-WA0023.jpg"
-  - "/photos/escadas/IMG-20201205-WA0024.jpg"
-  - "/photos/escadas/IMG-20201205-WA0028.jpg"
+  - "/photos/remendos/IMG-20201208-WA0014.jpg"
+  - "/photos/remendos/IMG-20201208-WA0015.jpg"
+  - "/photos/remendos/IMG-20201208-WA0008.jpg"
+  - "/photos/remendos/IMG-20201208-WA0013.jpg"
+  - "/photos/remendos/IMG-20201208-WA0016.jpg"
+  - "/photos/remendos/IMG-20201208-WA0011.jpg"
+  - "/photos/remendos/IMG-20201208-WA0010.jpg"
+  - "/photos/remendos/IMG-20201208-WA0009.jpg"
+  - "/photos/remendos/IMG-20201208-WA0012.jpg"
+
 
 
 ---

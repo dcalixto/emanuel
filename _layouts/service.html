@@ -7,7 +7,18 @@ layout: default
 
   
 <div class="container">
+   <div class="row">
+ 
 
+        <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+          <h2>{{page.title}}</h2>
+          <div class=" location-map-container ">
+            <p>
+              {{page.description}}
+            </p>
+          </div>
+        </div>
+      </div>
   <div class="row parent-container">
 
  {% for image in page.images %}
@@ -33,7 +44,7 @@ layout: default
      {% endfor %}
       {% if page.youtubeId != null %}
     
-              {% include youtube.html id='ZX2DdQkY0Ls' %}
+              {% include youtube2.html id=page.youtubeId %}
              {% endif %}
 
 
@@ -43,18 +54,7 @@ layout: default
 
 
 
-    <div class="row">
  
-
-        <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
-          <h2>{{page.title}}</h2>
-          <div class=" location-map-container ">
-            <p>
-              {{page.description}}
-            </p>
-          </div>
-        </div>
-      </div>
 
 
 </div>

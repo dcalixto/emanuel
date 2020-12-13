@@ -14,7 +14,8 @@ images:
   - "/photos/synteko/IMG-20201213-WA0003.jpg"
   - "/photos/synteko/IMG-20201213-WA0002.jpg"
   - "/photos/synteko/IMG-20201213-WA0001.jpg"
-  - "/photos/synteko/IMG-20201213-WA0000.jpg"
+  - "/photos/synteko/IMG-20201213-WA0008.jpg"
+
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Raspagem
+title: Verniz a base de água 
 text: Fotos em alta definição!
 
 description: ""
@@ -9,7 +9,6 @@ description: ""
 img: "/photos/raspagem/IMG-20201205-WA0016.jpg"
 
 youtubeId: PCCqmpfkdB4
-youtubeId2: marNouUphmQ
 
 images:
   - "/photos/raspagem/IMG-20201205-WA0016.jpg"

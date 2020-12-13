@@ -48,6 +48,11 @@ layout: default
              {% endif %}
 
 
+    {% if page.youtubeId2 != null %}
+    
+              {% include youtube2.html id=page.youtubeId2 %}
+             {% endif %}
+
 
   </div>
 
@@ -60,8 +65,22 @@ layout: default
 </div>
 
 </section>
+{% if  page.url == "/services/decks/" %}
 
- {% if page.material != null %}
     
               {% include material.html  %}
+             {% endif %}
+
+
+  {% if  page.url == "/services/verniz-synteko/" %}
+
+    
+              {% include box.html  %}
+             {% endif %}
+
+             
+ {% if  page.url ==  "/services/verniz/" %}
+
+    
+              {% include box.html  %}
              {% endif %}

@@ -7,10 +7,9 @@ img: "/photos/remendos/IMG-20201208-WA0008.jpg"
 
 images:
   - "/photos/remendos/IMG-20201208-WA0014.jpg"
-  - "/photos/remendos/IMG-20201208-WA0015.jpg"
-  - "/photos/remendos/IMG-20201208-WA0008.jpg"
   - "/photos/remendos/IMG-20201208-WA0013.jpg"
   - "/photos/remendos/IMG-20201208-WA0016.jpg"
+  - "/photos/remendos/IMG-20201208-WA0008.jpg"
   - "/photos/remendos/IMG-20201208-WA0011.jpg"
   - "/photos/remendos/IMG-20201208-WA0010.jpg"
   - "/photos/remendos/IMG-20201208-WA0009.jpg"

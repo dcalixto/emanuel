@@ -3,7 +3,8 @@ title: Escadas
 description: Raspagem, verniz e aplicação em escadas.
 
 img: "/photos/IMG-20201205-WA0009.jpg"
-
+youtubeId: MHU2LqvFTU0
+youtubeId2: MXzIXx8jz1M
 
 images:
   - "/photos/escadas/IMG-20201205-WA0008.jpg"

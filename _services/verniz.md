@@ -1,20 +1,23 @@
 ---
-title: Verniz a base de água 
+title: Verniz a base de água (nacional e importados)
 text: Fotos em alta definição!
 
 description: ""
 
 
 
-img: "/photos/raspagem/IMG-20201205-WA0016.jpg"
+img: "/photos/agua/IMG-20201215-WA0010.jpg"
 
-youtubeId: PCCqmpfkdB4
 
 images:
-  - "/photos/raspagem/IMG-20201205-WA0016.jpg"
-  - "/photos/raspagem/IMG-20201205-WA0026.jpg"
-  - "/photos/raspagem/IMG-20201205-WA0021.jpg"
-  - "/photos/remendos/IMG-20201208-WA0015.jpg"
+  - "/photos/agua/IMG-20201215-WA0008.jpg"
+  - "/photos/agua/IMG-20201215-WA0013.jpg"
+  - "/photos/agua/IMG-20201215-WA0005.jpg"
+  - "/photos/agua/IMG-20201215-WA0011.jpg"
+  - "/photos/agua/IMG-20201215-WA0009.jpg"
+  - "/photos/agua/IMG-20201215-WA0012.jpg"
+  - "/photos/agua/IMG-20201215-WA0006.jpg"
+  - "/photos/agua/IMG-20201215-WA0007.jpg"
 
 
 ---

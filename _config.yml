@@ -1,5 +1,5 @@
 # Basic settings
-url: "syntekoboituva.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.syntekoboituva.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Synteko Boituva - Tacos, assoalhos, Decks e escadas de madeira
 Pisos de madeira em geral" # the name of your site, e.g. ACME Corp.

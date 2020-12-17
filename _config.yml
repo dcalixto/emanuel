@@ -8,7 +8,7 @@ description: "Synteko Boituva, raspagem de piso de madeira, lixamento de tacos e
 tagline: "aplicadora,  synteko, sinteco, raspagem, synteco, sinteko, bona, vita, clareamento, lixamento, assoalho, tacos, assoalhos, piso, madeira, pisos de madeira, calafetação, aplicação"
 # Build settings
 markdown: kramdown
-
+lang: "pt-br"
 # Kramdown options
 kramdown:
   # Prevent IDs from being added to h1-h6 tags

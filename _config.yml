@@ -1,9 +1,11 @@
 # Basic settings
-url: "syntekoboituva.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+url: "syntekoboituva.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Synteko Boituva - Tacos, assoalhos, Decks e escadas de madeira
 Pisos de madeira em geral" # the name of your site, e.g. ACME Corp.
-
+description: "Synteko Boituva, raspagem de piso de madeira, lixamento de tacos e assoalhos, calafetação com massa, aplicação de synteko, bona, cascolac, vita, skania"
+  
+tagline: "aplicadora,  synteko, sinteco, raspagem, synteco, sinteko, bona, vita, clareamento, lixamento, assoalho, tacos, assoalhos, piso, madeira, pisos de madeira, calafetação, aplicação"
 # Build settings
 markdown: kramdown
 

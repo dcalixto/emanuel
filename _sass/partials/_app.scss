@@ -2687,6 +2687,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   height: 50px;
+  padding:10px
 }
 
 @media (max-width: 768px) {
@@ -10020,3 +10021,4 @@ h1,
 
 .parent-container a  {padding: 10px}
 .parent-container iframe {padding: 10px}
+.padding {padding:10px}

@@ -1,0 +1,9 @@
+# specify main menu items here
+
+- text: Início
+  url: /
+
+- text: Contato
+  url: /contact
+#- text: Quartos
+#  url: /posts

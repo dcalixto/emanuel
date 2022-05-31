@@ -1,0 +1,22 @@
+---
+header:
+- text: Home
+  url: "/"
+  weight: 5
+  title: Home
+- text: Sobre
+  url: "/about"
+  weight: 4
+  title: About
+- text: Contato
+  url: "/contact"
+  weight: 3
+  title: Contact
+- text: Trabalhos
+  url: "/photos"
+  weight: 1
+  title: Fotos
+- text: Serviços
+  url: "/posts"
+  weight: 2
+  title: Posts

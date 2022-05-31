@@ -1,0 +1,46 @@
+<section class="background-color-grey">
+  <div class="inner-content-top-out-bottom-out">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+          <div class="container-support-form">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="container-support-header">
+                  <h1>{{  page.title }}</h1>
+                  <img src="/photos/floor.jpg" class="img-responsive
+                  " alt="aplicação de sinteco piso">
+                  
+                  
+                </div>
+                
+              </div>
+            </div>
+            <hr class="hr-grey" />
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="container-support-content">
+                  <p class=" mb-4">
+                    <p>
+                      {{  page.body }}
+                    </p>
+                    
+                  </div>
+                  {% include contact3.html %}
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+            <div class="support-form-sidebar">
+              <div class="support-form-sidebar-content">
+                <h4>Categorias</h4>
+                {{ site | tag_cloud }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

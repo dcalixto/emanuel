@@ -1,0 +1,78 @@
+{% if site.data.information %} {% assign info = site.data.information %}
+  <section>
+    <div class="inner-content-top-in-bottom-in">
+      <div class="container">
+        <div class="row">
+          
+          <div
+            class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12"
+            >
+            <ul class="list-unstyled list-big-headlines ">
+              <li><h2 class="margin-0 agora orange">FALE AGORA CONOSCO</h2></li>
+              
+            </ul>
+            <p>Pelos telefones</p>
+            <ul class="list-unstyled ">
+              <li>{{ info.phone }}</li>
+              <li>{{ info.phone2 }}</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+            <div>
+              {% if site.data.information %} {% assign info = site.data.information %}
+                <form id="contact-form" action={{info.contact}}  method="POST">
+                  <div id="nextcloud-notice" class="info-support-container hidden">
+                    <div class="icon-container">
+                      <i class="fa fa-info-circle"></i>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="float-left" for="input-prename">Nome</label>
+                    <input
+                    
+                    type="text"
+                    required="required"
+                    class="form-control"
+                    id="input-prename"
+                    name="input-prename"
+                    value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="float-left" for="input-mail">Email ou telefone</label>
+                    <input
+                    type="email"
+                    required="required"
+                    class="form-control"
+                    id="input-mail"
+                    name="input-mail"
+                    value=""
+                    
+                    />
+                  </div>
+                  <div class="form-group support-form-padding-top">
+                    <label class="float-left" for="input-message">Mensagem</label>
+                    <textarea
+                    class="form-control support-message"
+                    required="required"
+                    rows="7"
+                    name="message"
+                    id="input-message"
+                    
+                    ></textarea>
+                  </div>
+                  <input
+                  type="submit"
+                  value="Enviar"
+                  id="btn-submit"
+                  class="btn btn-yellow btn-md"
+                  />
+                </form>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}

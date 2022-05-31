@@ -1,0 +1,52 @@
+{% if site.data.information %} {% assign info = site.data.information %}
+  <div id="header-pre-section">
+    <div class="container  ">
+      <div class="row ">
+        <div
+          class=" col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-3 col-xs-12"
+          >
+          <ul class=" list-inline list-header-pre-section list-preference padding-header">
+            <li>
+              <p class="">
+                
+                {{ info.address }}
+              </p>
+            </li>
+            <li>
+              <p class="">
+                
+                {{ info.phone }}
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <ul
+            class=" list-inline list-header-pre-section list-header-pre-section-right hidden-xs hidden-sm"
+            >
+            <li class="">
+              <a
+                class="btn btn-sm btn-login"
+                href="{{ info.facebook }}"
+                target="_blank"
+                >
+                <i class="fa fa-facebook  icon-login hidden-xs"></i>
+              Facebook</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="btn btn-sm btn-login"
+                href="{{ info.instagram }}"
+                target="_blank"
+                >
+                <i class="fa fa-instagram  icon-login hidden-xs"></i>
+              Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

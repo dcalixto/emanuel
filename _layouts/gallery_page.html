@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<style>
+.image-gallery {
+overflow: auto;
+}
+.image-gallery a {
+color: silver !important;
+float: left;
+display: block;
+text-align: center;
+text-decoration: none !important;
+}
+.image-gallery a span {
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+padding: 3px 0;
+}
+.image-gallery a img {
+width: 100%;
+display: block;
+}
+.image-gallery-index a:hover,
+.image-gallery a:hover {
+color: #777 !important;
+}
+.image-gallery a img {
+filter: grayscale(100%) brightness(116%) contrast(83%) opacity(70%);
+}
+.image-gallery-index a:hover img,
+.image-gallery a:hover img {
+filter: grayscale(0%) brightness(100%) contrast(100%) opacity(100%);
+}
+</style>
+<!-- Page Content -->
+<div class="container">
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">
+  {{ page.title }}
+  </h1>
+  <div class="row text-center text-lg-left  ">
+    {% for image in page.images %}
+      <div class="col-lg-3 col-md-4 col-6 image-gallery">
+        <a
+          href="{{ image.name }}"
+          title="{{ image.name }}"
+          class="d-block mb-4 h-100"
+          >
+          <img
+          class="img-fluid img-thumbnail"
+          src="thumbs/{{ image.name }}"
+          alt="{{ image.name }}"
+          title="{{ image.name }}"
+          />
+        </a>
+      </div>
+    {% endfor %}
+    <!-- /.container -->
+    {% include script.html %}
+    <script src="{{ '/js/swipe-it.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/lightbox.js' | prepend: site.baseurl }}"></script>
+  </div>
+</div>

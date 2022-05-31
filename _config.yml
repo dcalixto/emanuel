@@ -1,0 +1,101 @@
+# Basic settings
+url: "https://www.syntekoboituva.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Synteko Boituva" # the name of your site, e.g. ACME Corp.
+description: "Raspagem de piso de madeira, lixamento de tacos e assoalhos,
+ calafetação com massa, aplicação de sinteco, bona, cascolac, vita, skania"
+  
+tagline: "Aplicação de sinteco,  synteko, raspagem, synteco, sinteko, bona, 
+vita, clareamento, lixamento, assoalho, tacos, assoalhos, piso, madeira, pisos de madeira, calafetação, aplicação"
+# Build settings
+markdown: kramdown
+lang: "pt-br"
+# Kramdown options
+
+
+
+timezone: America/Sao_Paulo
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+kramdown:
+  # Prevent IDs from being added to h1-h6 tags
+  auto_ids: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-menus
+  - jekyll/tagging
+  - jekyll-sitemap
+
+
+source: .
+destination: ./_site
+# Compress CSS
+sass:
+  style: :compressed
+  sass_dir: _sass
+collections:
+  posts:
+include:
+  - _pages
+  - _posts
+section: true
+
+
+
+
+include:
+  - _pages
+section: true
+
+# set to 'true' to enable Netlify CMS (/admin) in production builds
+netlifycms: false
+
+# set to 'true' to enable Google Analytics tracking code in production builds
+analytics: false
+
+# Compress HTML (in liquid via layouts/compress.html)
+compress_html:
+  clippings: all
+
+# Social
+
+social:
+  name: Nova Boituva
+  links:
+    #- https://twitter.com/casahelio
+    - https://www.facebook.com/SyntekoBoituva
+
+# set some common post defaults
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "services" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "service" # set the correct default template for a post
+      section: "service" # set the root section name
+
+# Include in processing (e.g. Netlify directives)
+# Uncomment before use
+
+#include:
+#  - _redirects
+#  - _headers
+
+# Exclude from processing.
+# The following items will not be processed.
+exclude:
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

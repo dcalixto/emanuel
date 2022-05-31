@@ -1,0 +1,16 @@
+<!-- Bootstrap core JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/vendor.js"></script>
+<script src="{{ site.baseurl }}/assets/js/app.js"></script>
+<script src="{{ site.baseurl }}/assets/js/magnific-popup.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/ytdefer.js"></script>
+<script>
+$('.parent-container').magnificPopup({
+delegate: 'a', // child items selector, by clicking on it popup will open
+type: 'image',
+gallery: { enabled:true }
+// other options
+});
+</script>
+<script>
+window.addEventListener('load', ytdefer_setup);
+</script>

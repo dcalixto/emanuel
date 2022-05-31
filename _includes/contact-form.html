@@ -1,0 +1,111 @@
+{% if site.data.information %} {% assign info = site.data.information %}
+  <section id="header-section">
+    <div class="mapouter">
+      <div id="map-canvas" class="gmap_canvas ">
+        <iframe
+        width="100%"
+        height="350"
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?q=av.%20nossa%20sra.%20de%20copacabana%2C%20581&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        ></iframe>
+        
+      </div>
+      
+    </div>
+  </section>
+  <section class="background-color-grey">
+    <div class="inner-content-top-out-bottom-out">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+            <div class="container-support-form">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="container-support-header">
+                    <h1 class="orange">Contato</h1>
+                  </div>
+                </div>
+              </div>
+              <hr class="hr-grey" />
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="container-support-content">
+                    {% if site.data.information %} {% assign info = site.data.information %}
+                      <form id="contact-form" action={{info.contact}}  method="POST">
+                        
+                        <div
+                          id="nextcloud-notice"
+                          class="info-support-container hidden"
+                          >
+                          <div class="icon-container">
+                            <i class="fa fa-info-circle"></i>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="float-left" for="input-prename">Nome</label>
+                          <input
+                          type="text"
+                          required="required"
+                          class="form-control"
+                          id="input-prename"
+                          value=""
+                          name="name"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label class="float-left" for="input-mail">Email</label>
+                          <input
+                          type="email"
+                          required="required"
+                          class="form-control"
+                          id="input-mail"
+                          name="email"
+                          value=""
+                          />
+                        </div>
+                        <div class="form-group support-form-padding-top">
+                          <label class="float-left" for="input-message"
+                          >Mensagem</label
+                          >
+                          <textarea
+                          class="form-control support-message"
+                          required="required"
+                          rows="7"
+                          id="input-message"
+                          name="message"
+                          ></textarea>
+                        </div>
+                        <input
+                        type="submit"
+                        value="Enviar"
+                        id="btn-submit"
+                        class="btn btn-yellow btn-md"
+                        />
+                      </form>
+                    {% endif %}
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+            <div class="support-form-sidebar">
+              <div class="support-form-sidebar-content">
+                <h4>Telefone</h4>
+                <p>
+                  Deseja falar diretamente? Teremos o maior prazer em atender sua
+                  ligação. Você pode nos contatar pelo número abaixo:
+                </p>
+                <p class="support-sidebar-phone-number">
+                  <i class="fa fa-phone"></i><a href="#">{{ info.phone }}</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}

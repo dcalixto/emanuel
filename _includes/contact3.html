@@ -1,0 +1,25 @@
+{% if site.data.information %} {% assign info = site.data.information %}
+  <section>
+    <div class="inner-content-top-in-bottom-in">
+      <div class="container">
+        <div class="row">
+          
+          <div
+            class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12"
+            >
+            <ul class="list-unstyled list-big-headlines ">
+              <li><h2 class="margin-0 agora orange">FALE AGORA CONOSCO</h2></li>
+              
+            </ul>
+            <p>Pelos telefones</p>
+            <ul class="list-unstyled ">
+              <li><b>{{ info.phone }}</b></li>
+              <li><b>{{ info.phone2 }}</b></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}

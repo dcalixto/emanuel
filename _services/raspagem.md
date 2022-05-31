@@ -1,0 +1,21 @@
+---
+title: Raspagem
+text: Fotos em alta definição!
+h2: "Precisa de ajuda com pisos de madeira?"
+body: " Nós raspamos, reparamos, renovamos e restauramos pisos de madeira"
+
+
+
+img: "/photos/raspagem/IMG-20201205-WA0016.webp"
+
+youtubeId: PCCqmpfkdB4
+youtubeId2: marNouUphmQ
+
+images:
+  - "/photos/raspagem/IMG-20201205-WA0016.jpg"
+  - "/photos/raspagem/IMG-20201205-WA0026.jpg"
+  - "/photos/raspagem/IMG-20201205-WA0021.jpg"
+  - "/photos/remendos/IMG-20201208-WA0015.jpg"
+
+permalink: "raspagem"
+---
